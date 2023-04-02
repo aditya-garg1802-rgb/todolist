@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-module.exports=mongoose.connect('mongodb+srv://aditya1802:Aditya2002@cluster0.f0ecm6b.mongodb.net/todolist',{
+module.exports=mongoose.connect('//your mongodb connecrtion string',{
     useUnifiedTopology : true,
     useNewUrlParser:true
 },err=>{
